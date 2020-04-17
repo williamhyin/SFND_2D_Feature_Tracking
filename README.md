@@ -1,6 +1,6 @@
 # SFND 2D Feature Tracking
 
-<img src="/home/hyin/code/udacity_repo/SFND_2D_Feature_Tracking/images/keypoints.png" width="820" height="248" />
+![](https://williamhyin-1301408646.cos.ap-shanghai.myqcloud.com/img/20200418012437.png)
 
 The idea of the camera course is to build a collision detection system - that's the overall goal for the Final Project. As a preparation for this, you will now build the feature tracking part and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
 
