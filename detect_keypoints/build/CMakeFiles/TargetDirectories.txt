@@ -1,0 +1,3 @@
+/home/stephen/Work/Camera-Course/C3.3_exercise_solution/build/CMakeFiles/rebuild_cache.dir
+/home/stephen/Work/Camera-Course/C3.3_exercise_solution/build/CMakeFiles/detect_keypoints.dir
+/home/stephen/Work/Camera-Course/C3.3_exercise_solution/build/CMakeFiles/edit_cache.dir
