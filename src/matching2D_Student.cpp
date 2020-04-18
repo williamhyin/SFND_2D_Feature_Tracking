@@ -220,7 +220,10 @@ void detKeypointsModern(vector<cv::KeyPoint> &keypoints, cv::Mat &img, std::stri
     // select appropriate descriptor
     cv::Ptr<cv::FeatureDetector> detector;
     if (detectorType.compare("BRISK") == 0) {
-        detector = cv::BRISK::create();
+        int threshold = 30;        // FAST/AGAST detection threshold score.
+        int octaves = 3;           // detection octaves (use 0 to do single scale)
+        float patternScale = 1.0f; // apply this scale to the pattern used for sampling the neighbourhood of a keypoint.
+        detector = cv::BRISK::create(threshold, octaves, patternScale);
 
     } else if (detectorType.compare("AKAZE") == 0) {
         detector = cv::AKAZE::create();

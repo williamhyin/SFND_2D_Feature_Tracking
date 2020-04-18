@@ -2,6 +2,8 @@
 
 ![](https://williamhyin-1301408646.cos.ap-shanghai.myqcloud.com/img/20200418012437.png)
 
+If you want to know more details, please check my [blog](https://blog.csdn.net/williamhyin/article/details/105605241) .
+
 The idea of the camera course is to build a collision detection system - that's the overall goal for the Final Project. As a preparation for this, you will now build the feature tracking part and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
 
 * First, you will focus on loading images, setting up data structures and putting everything into a ring buffer to optimize memory load. 
